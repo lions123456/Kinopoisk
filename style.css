@@ -124,12 +124,18 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
+}
+
+.content-cards {
+    display: flex;
+}
+
+.content-card__item {
+    border: 1px solid #000;
+    width: calc(100% / 3);
 }
 
 .content-sidebar {
-    border: 1px solid red;
     width: 262px;
 }
 
